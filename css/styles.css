@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  letter-spacing: 2%;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.semantic-title {
+  display: none;
+}
+
+/* <header> */
+.logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: #4d5ae5;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.nav-link:active {
+  color: #404bbf;
+}
+
+.address-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+/* </header> */
+
+/* <main> */
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  gap: 10px;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  vertical-align: middle;
+}
+
+.hero-button:active {
+  background-color: #404bbf;
+}
+
+.button-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.section-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.item-title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.item-text {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+/* </main> */
+
+/* <footer> */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer > .logo,
+.footer > .item-text {
+  color: #f4f4fd;
+}
+/* </footer> */
