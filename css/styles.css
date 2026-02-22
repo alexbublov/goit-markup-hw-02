@@ -17,10 +17,6 @@ ul {
   list-style-type: none;
 }
 
-/*.semantic-title {
-  display: none;
-}*/
-
 /* <header> */
 .logo {
   color: #4d5ae5;
@@ -29,7 +25,6 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  vertical-align: middle;
   text-transform: uppercase;
 }
 
@@ -82,7 +77,6 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  vertical-align: middle;
   cursor: pointer;
 }
 
